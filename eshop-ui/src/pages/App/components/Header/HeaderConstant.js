@@ -1,12 +1,14 @@
 import React from "react"
+import PowerSettingsNewIcon from '@material-ui/icons/PowerSettingsNew';
+import LocationOnOutlinedIcon from '@material-ui/icons/LocationOnOutlined';
 
 export const beforeLogin = [
     {
-        name: "Store Location",
-        icon : "Store Icon"
+        name: "Store location",
+        icon: <LocationOnOutlinedIcon />
     },
     {
         name: "Login",
-        icon : "Login Icon"
+        icon: <PowerSettingsNewIcon />
     }
 ]
